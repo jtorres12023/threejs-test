@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="1200" viewBox="0 0 3600 1200">
+<defs>
+ <linearGradient id="copper" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#a27651"/><stop offset=".5" stop-color="#936037"/><stop offset="1" stop-color="#875831"/></linearGradient>
+ <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".45" fill="#5f3e24" opacity=".09"/></pattern>
+ <clipPath id="front"><path d="M1200 0h1200v880L1800 1200 1200 880z"/></clipPath>
+</defs>
+<path fill="#faf9f5" d="M0 0h3600v1200H0z"/>
+<!-- Underlying warm paper, visible above the two side panels. -->
+<path fill="#e0cbb7" d="M0 0h1200v120L980 0H300L0 190zM2400 0h1200v190L3300 0h-680l-220 180z"/>
+<!-- Central copper shield and its nested diagonal bands. -->
+<g clip-path="url(#front)">
+ <path fill="url(#copper)" d="M1200 0h1200v1200H1200z"/>
+ <path fill="#79502f" d="m1200 760 600 440 600-440v150l-600 450-600-450z"/>
+ <path fill="#9e703f" d="m1200 635 600 460 600-460v125l-600 440-600-440z"/>
+ <path fill="#faf9f5" d="M1400 0h800l-400 315z"/>
+ <path fill="#d4b798" d="m1330 0 470 315L1450 0zM2270 0l-470 315L2150 0z"/>
+ <path fill="#6d4828" opacity=".58" d="M1370 640q430 45 860 0l-430 350z"/>
+ <path fill="url(#grain)" d="M1200 0h1200v1200H1200z"/>
+</g>
+<g text-anchor="middle">
+ <g fill="#2876a1" font-family="Arial,sans-serif" font-weight="700"><text x="1800" y="87" font-size="47" letter-spacing="-1">VITALITY</text><text x="1800" y="132" font-size="35">FOR LIFE<tspan font-size="16" baseline-shift="super">®</tspan></text></g>
+ <g stroke="#2876a1" fill="none" stroke-width="4" transform="translate(1800 208)"><path d="M-4 55Q-44 7 4-30Q40 5-4 55ZM-3 49Q5 14 4-31Q17-46 6-57"/><path d="m-4 35-19-12M0 22-23 7M3 10-19-7M5-2-10-18M3 25l18-15M5 11 25-3M6-2l17-13"/></g>
+ <text x="1800" y="480" fill="#fffaf0" font-family="Georgia, 'Times New Roman',serif" font-size="132" letter-spacing="1"><tspan font-size="181">F</tspan>LORIFY<tspan font-family="Arial,sans-serif" font-size="25" baseline-shift="super">®</tspan></text>
+ <text x="1800" y="553" fill="#fffaf0" font-family="Arial,sans-serif" font-weight="700" font-size="51" letter-spacing="1">DAILY PROBIOTIC</text>
+ <g fill="#fffaf0" font-family="Arial,sans-serif"><text x="1800" y="737" font-size="43">Promotes Healthy Immune</text><text x="1800" y="793" font-size="43">and Digestive Systems*</text><text x="1800" y="1010" font-size="35" font-weight="700">DIETARY SUPPLEMENT</text><text x="1800" y="1060" font-size="34" font-weight="700">30 CAPSULES</text></g>
+</g>
+<!-- Benefits panel seen in the first, second and fifth photographs. -->
+<rect x="280" y="65" width="845" height="1055" rx="27" fill="#91633e"/>
+<g fill="#fffaf0" font-family="Arial,sans-serif">
+ <text x="325" y="162" font-size="54" font-weight="700">Probiotic Powerhouse*</text>
+</g>
+
+<g fill="#fffaf0" font-family="Arial,sans-serif" font-size="42" font-weight="400">
+<text x="330" y="295">• 11 billion guaranteed active</text>
+<text x="330" y="352">  cultures help replenish the</text>
+<text x="330" y="409">  natural balance in your</text>
+<text x="330" y="466">  digestive tract*</text>
+</g>
+<g fill="#fffaf0" font-family="Arial,sans-serif" font-size="40" font-weight="400">
+<text x="330" y="565">• 9 diverse probiotic strains</text>
+<text x="330" y="621">  help improve the absorption</text>
+<text x="330" y="677">  of nutrients and protect against</text>
+<text x="330" y="733">  occasional stomach upsets*</text>
+</g>
+<g fill="#fffaf0" font-family="Arial,sans-serif" font-size="40" font-weight="400">
+<text x="330" y="845">• Promote a healthy immune</text>
+<text x="330" y="901">  system with clinically tested</text>
+<text x="330" y="957">  probiotics and vitamin D*</text>
+</g>
+<g transform="translate(140 1120) rotate(-90)"><rect x="0" y="0" width="1055" height="102" rx="7" fill="none" stroke="#3e3b36" stroke-width="3"/>
+<g fill="#3e3b36" font-family="Arial,sans-serif" font-size="24" font-weight="400">
+<text x="20" y="29">*These statements have not been evaluated by the Food and</text>
+<text x="20" y="58">Drug Administration. This product is not intended to diagnose,</text>
+<text x="20" y="87">treat, cure, or prevent any disease.</text>
+</g>
+</g>
+<path d="M2475 40H3520Q3600 40 3600 115V1040H2475z" fill="#f6f5f1"/>
+<rect x="2470" y="72" width="153" height="82" rx="12" fill="#2678a4"/>
+<path d="m2490 130 33-48 32 48-32-25z" fill="#f9f9ee"/><rect x="2560" y="94" width="49" height="31" rx="3" fill="#d4b45c"/>
+<text x="2566" y="117" fill="#2e4e60" font-family="Arial,sans-serif" font-size="24" font-weight="700">AM</text>
+
+<g fill="#3e3b36" font-family="Arial,sans-serif" font-size="37" font-weight="700">
+<text x="2650" y="128.0">DIRECTIONS: Take one capsule daily.</text>
+</g>
+<g fill="#3e3b36" font-family="Arial,sans-serif" font-size="35" font-weight="400">
+<text x="2470" y="237">To maximize shelf life and product</text>
+<text x="2470" y="283">performance, we recommend refrigeration.</text>
+</g>
+<g fill="#3e3b36" font-family="Arial,sans-serif" font-size="33" font-weight="400">
+<text x="2470" y="385">Consult your physician before taking this</text>
+<text x="2470" y="428">product if you are pregnant, planning to become</text>
+<text x="2470" y="471">pregnant, nursing, under a doctor’s care, taking</text>
+<text x="2470" y="514">medications, or administering to children under</text>
+<text x="2470" y="557">the age of 18. If you experience an adverse</text>
+<text x="2470" y="600">reaction, stop use and see your doctor. Keep out</text>
+<text x="2470" y="643">of reach of children. Tamper-evident inner seal;</text>
+<text x="2470" y="686">if broken do not accept.</text>
+</g>
+<g fill="#3e3b36" font-family="Arial,sans-serif" font-size="29" font-weight="400">
+<text x="2670" y="825">Melaleuca, Inc., Idaho Falls, ID 83402</text>
+<text x="2670" y="862">To order: Melaleuca.com</text>
+<text x="2670" y="899">208-534-3000</text>
+<text x="2670" y="936">Made in the USA with thoughtfully</text>
+<text x="2670" y="973">selected global ingredients</text>
+<text x="2670" y="1010">N° 60113</text>
+<text x="2670" y="1047">NOT FOR RESALE</text>
+<text x="2670" y="1084">VEGETARIAN · GLUTEN-FREE</text>
+</g>
+<g transform="translate(2540 864)" stroke="#4c4a45" fill="none"><circle r="66" stroke-width="5"/><circle r="48" stroke-width="2"/><path d="M0 33Q-33-2 2-30Q32-3 0 33ZM0 27 2-29" stroke-width="3"/></g>
+<text x="2540" y="966" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#4c4a45">QUALITY</text>
+<path d="M3485 25h35q80 0 80 85t-45 104v940" fill="none" stroke="#d9d7d0" stroke-width="3"/>
+<text x="3532" y="117" transform="rotate(45 3532 117)" font-family="Arial,sans-serif" font-weight="700" font-size="35" fill="#5a5954">PEEL</text>
+<text x="3568" y="335" transform="rotate(90 3568 335)" font-family="Arial,sans-serif" font-style="italic" font-size="31" fill="#45443e">Supplement Facts Under Tab</text>
+</svg>

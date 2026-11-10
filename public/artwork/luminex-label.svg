@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="900" viewBox="0 0 2800 900">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.3" y2="1"><stop stop-color="#ffdf75"/><stop offset="1" stop-color="#edaf21"/></linearGradient>
+    <pattern id="lines" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V28" stroke="#fff" stroke-opacity=".05" stroke-width="2"/></pattern>
+  </defs>
+  <path fill="#fffdf7" d="M0 0h2800v900H0z"/>
+  <path fill="url(#gold)" d="M940 0h920v900H940z"/>
+  <path fill="#f8c747" d="m940 380 460 430 460-430v180l-460 340-460-340z"/>
+  <path fill="#fffdf7" d="M1040 0h720l-360 245z"/>
+  <path fill="#ffeaa1" opacity=".7" d="m940 0 460 300L1080 0zM1860 0l-460 300L1720 0z"/>
+  <path fill="url(#lines)" d="M940 0h920v900H940z"/>
+  <g text-anchor="middle">
+    <g fill="#20abd0" font-family="Arial,sans-serif" font-weight="700"><text x="1400" y="65" font-size="31" letter-spacing="2">VITALITY</text><text x="1400" y="95" font-size="21" letter-spacing="1">FOR LIFE®</text></g>
+    <g stroke="#f4be31" stroke-width="5" transform="translate(1400 340)"><circle r="27" fill="#f4be31"/><path d="M0-58V-38M0 38V58M-58 0H-38M38 0H58M-41-41-27-27M27 27l14 14M-41 41-27 27M27-27l14-14"/></g>
+    <text x="1400" y="465" fill="#fffef4" font-family="Georgia,serif" font-weight="700" font-size="122">Luminex<tspan font-size="28" baseline-shift="super">®</tspan></text>
+    <path d="M1145 512h510" stroke="#fff3bf" stroke-width="2"/>
+    <g fill="#fffef4" font-family="Arial,sans-serif"><text x="1400" y="590" font-size="33" font-weight="700">Supports a Positive</text><text x="1400" y="636" font-size="33" font-weight="700">Mental Outlook*</text><text x="1400" y="748" font-size="22" letter-spacing="2">DIETARY SUPPLEMENT</text><text x="1400" y="782" font-size="23" font-weight="700">60 CAPSULES</text></g>
+  </g>
+  <g fill="#504e44" font-family="Arial,sans-serif">
+    <text x="2000" y="110" font-size="43" font-family="Georgia,serif">A brighter outlook.</text>
+    <text x="2000" y="190" font-size="25">Featuring saffron and ashwagandha.</text>
+    <text x="2000" y="234" font-size="25">Formulated for mood and well-being support.*</text>
+    <path d="M2000 285h600" stroke="#d9c88e" stroke-width="2"/>
+    <text x="2000" y="350" font-size="24" font-weight="700" letter-spacing="2">VITALITY FOR LIFE · LUMINEX</text>
+    <text x="2000" y="402" font-size="22">Example artwork for an interactive 3D study.</text>
+    <text x="2000" y="440" font-size="22">See original packaging for complete product details.</text>
+    <text x="2000" y="540" font-size="20">*These statements have not been evaluated by the</text>
+    <text x="2000" y="570" font-size="20">Food and Drug Administration. This product is not</text>
+    <text x="2000" y="600" font-size="20">intended to diagnose, treat, cure, or prevent any disease.</text>
+    <text x="2000" y="780" font-size="18" letter-spacing="2">CONCEPT LABEL · NOT FOR PRODUCTION</text>
+    <text x="150" y="160" font-size="38" font-family="Georgia,serif">Luminex®</text>
+    <text x="150" y="225" font-size="24">Vitality For Life</text>
+    <path d="M150 280h580" stroke="#d9c88e" stroke-width="2"/>
+    <text x="150" y="350" font-size="24">Saffron · Ashwagandha · B vitamins</text>
+    <text x="150" y="410" font-size="22">Product reference: Melaleuca, Inc.</text>
+    <text x="150" y="455" font-size="22">Item 60207 · 60 capsules</text>
+    <text x="150" y="780" font-size="18" letter-spacing="2">EXAMPLE ARTWORK · 3D BOTTLE STUDY</text>
+  </g>
+</svg>
