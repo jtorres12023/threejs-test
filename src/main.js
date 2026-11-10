@@ -89,6 +89,10 @@ if (renderer) {
   scene.add(fill)
 
   const bottle = new THREE.Group()
+  const bottleScale = 0.5
+  bottle.scale.setScalar(bottleScale)
+  // Keep the base at the same counter height when scaling around the origin.
+  bottle.position.y = 0.06 * (1 - bottleScale)
   scene.add(bottle)
   const plastic = new THREE.MeshStandardMaterial({ color: 0xf8f6f1, roughness: 0.32, metalness: 0, envMapIntensity: 0.45 })
   const capMaterial = new THREE.MeshStandardMaterial({ color: 0xfaf9f5, roughness: 0.43, metalness: 0, envMapIntensity: 0.35 })
@@ -187,6 +191,7 @@ if (renderer) {
   contactContext.fillRect(0, 0, 128, 128)
   const contactTexture = new THREE.CanvasTexture(contactCanvas)
   const contactShadow = new THREE.Mesh(new THREE.PlaneGeometry(2.5, 2.2), new THREE.MeshBasicMaterial({ map: contactTexture, transparent: true, depthWrite: false, toneMapped: false }))
+  contactShadow.scale.setScalar(bottleScale)
   contactShadow.rotation.x = -Math.PI / 2
   contactShadow.position.y = 0.058
   scene.add(contactShadow)

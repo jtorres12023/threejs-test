@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
 
-:root { font-family: 'DM Sans', Arial, sans-serif; color: #29231e; background: #fffaf3; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+:root { font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #29231e; background: #fffaf3; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
 * { box-sizing: border-box; }
 body { margin: 0; }
 a { color: inherit; text-decoration: none; }
@@ -12,7 +12,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid #98704b; outline-offs
 .site-header { height: 110px; padding: 0 clamp(24px, 5vw, 88px); display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #e8ded1; }
 .wordmark { font: 36px/1 Georgia, serif; letter-spacing: -1.5px; }
 .wordmark > span { font: 10px Arial, sans-serif; vertical-align: super; margin-left: 3px; }
-.wordmark small { display: block; font: 8px/1.5 'DM Sans', sans-serif; letter-spacing: 2px; margin-top: 9px; }
+.wordmark small { display: block; font: 8px/1.5 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: 2px; margin-top: 9px; }
 nav { display: flex; align-items: center; gap: 36px; font-size: 12px; }
 nav a { transition: color .2s; }
 nav a:hover { color: #9c673c; }
@@ -58,7 +58,7 @@ h2 { font-size: clamp(27px, 2.4vw, 39px); line-height: 1.25; letter-spacing: -1.
 .text-link span { margin-left: 16px; }
 .site-footer { padding: 35px clamp(24px, 5vw, 88px); border-top: 1px solid #e8ded1; display: flex; align-items: center; justify-content: space-between; gap: 40px; background: #f5ede2; }
 .footer-brand { font: 26px Georgia, serif; }
-.footer-brand span { display: block; font: 7px 'DM Sans', sans-serif; letter-spacing: 1.5px; margin-top: 7px; }
+.footer-brand span { display: block; font: 7px 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: 1.5px; margin-top: 7px; }
 .site-footer > div { max-width: 630px; }
 .disclaimer { margin: 0 0 9px; font-size: 9px; line-height: 1.7; color: #827463; }
 .site-footer div a { font-size: 9px; color: #7c6146; }
@@ -165,3 +165,11 @@ h1 { font-size: clamp(32px, 3vw, 52px); }
  .site-header { background: #fffaf3; }
  .product-copy { padding-top: 28px; }
 }
+
+/* Match the brand's Roboto typography and more natural character spacing. */
+h1 { font-weight: 300; letter-spacing: -0.4px; }
+h1 strong { font-weight: 700; }
+h2 { font-weight: 400; letter-spacing: -0.3px; }
+.product-copy > p:not(.eyebrow) { font-weight: 400; }
+.product-copy p strong { font-weight: 700; }
+.formula-stats .stat-number { font-weight: 300; letter-spacing: -1px; }
